@@ -27,13 +27,14 @@
 /* -------------------------------------plancshet----------------------------------- */
 @media screen and (min-width:768px) {
     .container {
-        width: 462px;
+        width: 768px;
     }
 
     .about-us-list {
         display: flex;
         gap: 24px;
     }
+
 
     .our-team>.container {
         width: 480px;
@@ -224,6 +225,55 @@
         gap: 24px;
       }
 
+      .footer-container {
+        display: flex;
+      }
+
+
+      .form-class {
+        display: flex;
+        gap: 24px;
+      }
+
+      .subscr-box {
+        margin-left: 80px;
+      }
+
+      .footer-soc {
+        margin-left: 120px;
+      }
+
+      .us-box {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 112px;
+        background-color: var(--background-color-body-btn);
+        border-radius: 4px;
+        margin-bottom: 8px;
+        
+      }
+
+      .strategy-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--about-us-title-color);
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+      
+      .strategy-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--about-us-text-color);
+      }
+      
+
 }
 
 /* ------------------------PC------------------------- */
@@ -268,6 +318,7 @@
     }
 
 
+
     .us-bisnez {
         display: flex;
         gap: 24px;
@@ -277,4 +328,52 @@
         display: flex;
         gap: 24px;
       }
+
+      .footer-container {
+        display: flex;
+      }
+
+      .form-class {
+        display: flex;
+        gap: 24px;
+      }
+
+      .subscr-box {
+        margin-left: 80px;
+      }
+
+      .footer-soc {
+        margin-left: 120px;
+      }
+
+      .us-box {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 112px;
+        background-color: var(--background-color-body-btn);
+        border-radius: 4px;
+        margin-bottom: 8px;
+        
+      }
+
+      .strategy-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--about-us-title-color);
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+      
+      .strategy-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--about-us-text-color);
+      }
+      
 }

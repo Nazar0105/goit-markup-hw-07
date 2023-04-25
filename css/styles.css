@@ -278,14 +278,14 @@ a {
   height: 112px;
   background-color: var(--background-color-body-btn);
   border-radius: 4px;
-  margin-bottom: 8px;
-  display: none;
+  margin-bottom: 25px;
 }
 
 .strategy-icon {
 
   height: 64px;
   width: 64px;
+  display: none;
 }
 
 .strategy-title {
@@ -295,7 +295,6 @@ a {
   letter-spacing: 0.02em;
   color: var(--about-us-title-color);
   margin-bottom: 8px;
-  margin-top: 8px;
   text-align: center;
   text-transform: capitalize;
 }
@@ -358,7 +357,7 @@ a {
 .worker {
   background-color: #ffffff;
   width: 264px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -486,9 +485,6 @@ a {
   margin-left: auto;
 }
 
-.margin-footer-box {
-  margin-bottom: 72px;
-}
 
 
 
@@ -502,7 +498,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .footer-soc-item {
@@ -564,7 +559,6 @@ a {
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 16px;
-  text-align: center;
 }
 
 .subscribe-email {
@@ -1065,7 +1059,6 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 48px;
-  margin-top: 40px;
 }
 
 .mob-menu-contact-tel {
@@ -1074,7 +1067,6 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #4D5AE5;
-  margin-bottom: 40px;
 }
 
 .menu-soc-list {
@@ -1110,6 +1102,11 @@ a {
 
 .heder-adres-mob-menu {
   margin-bottom: 48px;
+
+}
+
+.li-tel-mob-menu {
+  margin-bottom: 40px;
 
 }
 

@@ -23,6 +23,19 @@
     }
   }
 
+  .teem-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+
+  /* .about-us-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  } */
+
   /* .margin-footer-box {
     margin-bottom: 72px;
   }
@@ -52,13 +65,14 @@
 
   .about-us-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px 24px;
   }
 
 
-  .our-team>.container {
+  /* .our-team>.container {
     width: 480px;
-  }
+  } */
 
   .teem-list {
     display: flex;
@@ -66,16 +80,24 @@
     justify-content: center;
     gap: 64px 24px;
   }
-  
+
+
+  .worker {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+  }
+
 
   .section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 
-  .worker {
-    width: calc((100% - 30px) / 2);
-  }
+  /* .worker {
+    width: 264px;
+  } */
 
   .head-list {
     display: flex;
@@ -113,20 +135,14 @@
     color: #404bbf;
   }
 
-  .heder-adres {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-
   .contacts {
     font-style: normal;
   }
 
   .head-contact {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.02em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -168,8 +184,8 @@
 
   .hero-title {
     font-weight: 700;
-    font-size: 34px;
-    line-height: 1.11;
+    font-size: 56px;
+    line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -228,7 +244,7 @@
 
   .heder-adres {
     display: flex;
-    gap: 40px;
+    gap: 4px;
   }
 
   .head-contact {
@@ -273,7 +289,7 @@
 
   .us-box {
 
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     height: 112px;
@@ -283,10 +299,16 @@
 
   }
 
+
+  .about-us-item {
+    width: 356px;
+    margin-right: 0;
+  }
+
   .strategy-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--about-us-title-color);
     margin-bottom: 8px;
@@ -294,7 +316,7 @@
   }
 
   .strategy-text {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -437,7 +459,7 @@
   }
 
   .worker {
-    width: calc((100% - 90px) / 4);
+    width: 264px;
   }
 
   .hero-title {

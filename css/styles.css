@@ -254,11 +254,11 @@ a {
   padding-bottom: 0;
 } */
 
-.about-us-list {
+/* .about-us-list {
   display: flex;
   flex-direction: column;
   gap: 72px;
-}
+} */
 
 .about-us-item {
   /* width: calc((100% - 72px) / 4); */
@@ -333,11 +333,11 @@ a {
   background-color: #f4f4fd;
 }
 
-.teem-list {
+/* .teem-list {
   display: flex;
   flex-direction: column;
   gap: 72px;
-}
+} */
 
 .our-team-title {
   font-weight: 700;
@@ -480,10 +480,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 268px;
+  width: 264px;
   margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.margin-footer-box {
+  margin-bottom: 72px;
 }
 
 
@@ -1045,6 +1049,15 @@ a {
   color: #2E2F42;
 }
 
+.mob-menu-ink-ocean {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color:  #404BBF;
+
+} 
+
 .mob-menu-contact-email {
   font-weight: 500;
   font-size: 20px;
@@ -1052,6 +1065,7 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 48px;
+  margin-top: 40px;
 }
 
 .mob-menu-contact-tel {

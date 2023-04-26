@@ -109,21 +109,6 @@ a {
   padding: 0px;
 }
 
-.head-logo-futer {
-
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--logo-color-);
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-}
 
 
 
@@ -254,11 +239,7 @@ a {
   padding-bottom: 0;
 } */
 
-/* .about-us-list {
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
-} */
+
 
 .about-us-item {
   /* width: calc((100% - 72px) / 4); */
@@ -278,7 +259,7 @@ a {
   height: 112px;
   background-color: var(--background-color-body-btn);
   border-radius: 4px;
-  margin-bottom: 25px;
+  display: none;
 }
 
 .strategy-icon {
@@ -288,16 +269,7 @@ a {
   display: none;
 }
 
-.strategy-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: var(--about-us-title-color);
-  margin-bottom: 8px;
-  text-align: center;
-  text-transform: capitalize;
-}
+
 
 .strategy-text {
   font-weight: 500;
@@ -332,11 +304,12 @@ a {
   background-color: #f4f4fd;
 }
 
-/* .teem-list {
+.teem-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 72px;
-} */
+}
 
 .our-team-title {
   font-weight: 700;
@@ -492,6 +465,10 @@ a {
   display: flex;
 } */
 
+.footer-soc {
+  margin-bottom: 72px;
+}
+
 .footer-soc-list {
 
   display: flex;
@@ -519,17 +496,7 @@ a {
 
 
 
-.footer-soc-title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #FFFFFF;
-  margin-bottom: 16px;
-  text-align: center;
-}
+
 
 .footer-soc-icons {
   fill: #f4f4fd;
@@ -551,27 +518,9 @@ a {
   margin-left: 80px;
 } */
 
-.subscr-title {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #FFFFFF;
-  margin-bottom: 16px;
-}
 
-.subscribe-email {
-  background-color: transparent;
-  width: 100%;
-  height: 40px;
-  padding-left: 16px;
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  margin-bottom: 16px;
-}
+
+
 
 .subscr-btn-text {
   font-weight: 500;
@@ -604,6 +553,10 @@ a {
 
 .subscr-btn :focus {
   background-color: #4D5AE5;
+}
+
+.margin-footer-box {
+  margin-bottom: 72px;
 }
 
 /* modal-window */
@@ -1048,9 +1001,9 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color:  #404BBF;
+  color: #404BBF;
 
-} 
+}
 
 .mob-menu-contact-email {
   font-weight: 500;

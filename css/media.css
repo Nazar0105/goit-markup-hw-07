@@ -87,6 +87,12 @@
     width: 64px;
     display: none;
   }
+  .heder-adres {
+    display: none;
+  }
+  .head-list {
+    display: none;
+  }
 
 
 
@@ -822,6 +828,22 @@
   .menu-open {
     display: none;
   }
+
+  .head-list {
+        display: flex;
+        gap: 40px;
+        display: block;
+    }
+    .head-list {
+      display: flex;
+      gap: 40px;
+    }
+
+    .heder-adres {
+      display: flex;
+      gap: 40px;
+    }
+
 
 
 

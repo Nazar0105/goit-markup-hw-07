@@ -262,12 +262,7 @@ a {
   display: none;
 }
 
-.strategy-icon {
 
-  height: 64px;
-  width: 64px;
-  display: none;
-}
 
 
 
@@ -465,9 +460,7 @@ a {
   display: flex;
 } */
 
-.footer-soc {
-  margin-bottom: 72px;
-}
+
 
 .footer-soc-list {
 
@@ -555,9 +548,7 @@ a {
   background-color: #4D5AE5;
 }
 
-.margin-footer-box {
-  margin-bottom: 72px;
-}
+
 
 /* modal-window */
 

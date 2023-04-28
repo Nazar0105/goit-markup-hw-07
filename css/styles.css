@@ -270,9 +270,7 @@ a {
   color: var(--about-us-text-color);
 }
 
-.us-work {
-  padding-top: 0;
-}
+
 
 .work-title {
   font-weight: 700;
@@ -1050,6 +1048,3 @@ a {
 
 }
 
-.head-item-blue {
-  color: #404BBF;
-}
